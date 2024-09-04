@@ -189,39 +189,6 @@ body {
     color: #333;
 }
 
-.social a{
-    text-decoration: none;
-}
-
-/* Icons Styles */
-.icons.alt {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 15px; /* Spacing between icons */
-}
-
-.icons.alt li {
-    margin: 0;
-}
-
-.icons.alt a {
-    text-decoration: none;
-    color: #333; /* Default icon color */
-    font-size: 24px; /* Icon size */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px; /* Width of the clickable area */
-    height: 40px; /* Height of the clickable area */
-    border-radius: 50%; /* Circular background */
-    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
-}
-
-.icons.alt a:hover {
-    color: #fff; /* Color of the icon on hover */
-    background-color: #007bff; /* Background color on hover */
-}
 
 /* Footer Styles */
 .footer {
@@ -229,4 +196,4 @@ body {
     color: white;
     text-align: center;
     padding: 20px 0;
-};
+}
